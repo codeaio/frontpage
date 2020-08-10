@@ -1,0 +1,28 @@
+.Header {
+    position: fixed;
+    width: 100%;
+    line-height: 5em;
+    background-color: rgb(16, 21, 34);
+    color: white;
+}
+
+.Nav-Block {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Logo {
+    font-size: 4em;
+}
+.Nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.Item {
+    font-size: 1.2em;
+    letter-spacing: .1em;
+}

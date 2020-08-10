@@ -1,0 +1,41 @@
+.Main {
+    height: 100vh;
+    background-image: url(./IDE.svg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 900px;
+}
+
+.Main-Block {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Main-Block h1 {
+    font-size: 4em;
+}
+
+.Main-Block h2 {
+    font-weight: 400;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.Buttons {
+    line-height: 70px;
+}
+
+.Buttons a {
+    margin-right: 20px;
+    background-color: violet;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.Main code {
+    font-size: 1.5em;
+}
+
