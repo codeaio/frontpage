@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Header />
       <Switch>
-        <React path="/" component={Wrapper} exact/>
+        <Route path="/home" component={Wrapper} exact/>
         <Route path="/docs" component={Docs} />
       </Switch>
     </div>
