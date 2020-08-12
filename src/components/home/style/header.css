@@ -4,6 +4,7 @@
     line-height: 5em;
     background-color: rgb(16, 21, 34);
     color: white;
+    z-index: 1000;
 }
 
 .Nav-Block {

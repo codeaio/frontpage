@@ -1,0 +1,43 @@
+.Box-Grid {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 300px;
+    grid-gap: 40px;
+}
+
+.Box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.Box h2 {
+    margin-top: 50px;
+    font-size: 2em;
+}
+
+
+.Box p {
+    margin-top: 30px;
+    font-size: 1.3em;
+}
+
+.Box a {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 1.1em;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.Small-Box {
+    position: absolute;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transform: translateY(-85px);
+    border-radius: 10px;
+}
